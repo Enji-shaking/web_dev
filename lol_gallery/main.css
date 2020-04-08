@@ -1,0 +1,139 @@
+
+
+@font-face {
+    font-family: "Kaushan";
+    src: url("kaushan/KaushanScript-Regular.otf");
+}
+#header {
+  background-image: url("image/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffb3;
+    width: 1000px;
+}
+.navbar {
+    /*box-shadow: 2px 2px 5px #ccc;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.navbar a{
+    text-align: center;
+    text-decoration: none;
+    background-color: pink;
+    display: block;
+    width: 300px;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#navbarCurr a{
+    background-color: dodgerblue;
+}
+#navbarCurr:hover a{
+    /*border-bottom: 10px solid black;*/
+    box-shadow: 0px 2px 5px black ;
+    background-color: lightblue;
+}
+#navbar1:hover a{
+    /*border-bottom: 10px solid black;*/
+    box-shadow: 0px 2px 5px black ;
+    background-color: lightblue;
+}
+#navbar2:hover a{
+    /*border-bottom: 10px solid black;*/
+    box-shadow: 0px 2px 5px black ;
+    background-color: lightblue;
+}
+#navbar3:hover a{
+    /*border-bottom: 10px solid black;*/
+    box-shadow: 0px 2px 5px black ;
+    background-color: lightblue;
+}
+#footer {
+    text-align: center;
+    height: 60px;
+    padding-top: 35px;
+    background-color: #4d0000;
+    color: #339933;
+}
+.pic {
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+}
+#column1{
+    float: left;
+    padding-top: 20px;
+    width: 380px;
+    background-color: #ffffb3;
+    text-align: center;
+}
+/*#column1 img{*/
+/*    !*padding-left: 5px;*!*/
+/*    width: 95%;*/
+/*}*/
+.image{
+    /*width: 190px;*/
+    /*margin-left: 5px;*/
+    /*margin-right: 5px;*/
+    background-color: ivory;
+    float: left;
+    text-align: center;
+    /*opacity: 0.9;*/
+
+}
+.image img{
+    width: 90%;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.image:hover h2{
+    visibility: visible;
+}
+.image:hover img{
+    visibility: visible;
+    opacity: 1;
+}
+.image h2{
+    visibility: hidden;
+}
+#column2{
+    float: left;
+    width: 600px;
+    background-color: #ffffe6;
+}
+.information{
+    text-indent: 20px;
+    /*border-width: 5px;*/
+    font-size: 22px;
+    border-color: green;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    color: #991d46;
+    border-style: dotted;
+    font-family: "Kaushan", "Times New Roman", cursive;
+}
+.characters{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+body{
+    background-color: lightgrey;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.clearfloat{
+    clear: both;
+}

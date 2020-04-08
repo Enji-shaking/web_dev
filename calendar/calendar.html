@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enji Li | Calendar</title>
+    <style>
+        body{
+            background-color: #7e3648;
+        }
+        #container{
+            margin-right: auto;
+            margin-left: auto;
+            width: 980px;
+            text-align: center;
+        }
+        #header{
+            width: 980px;
+            border: 1px solid black;
+            background-image: url("image/header.jpeg");
+            background-repeat: no-repeat;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background-size: cover;
+
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width:140px;
+            height: 40px;
+
+        }
+        td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width:140px;
+            vertical-align: top;
+            text-align: right;
+            height: 130px;
+            padding-top: 5px;
+            padding-right: 5px;
+        }
+        #birthday {
+            background-image: url("image/birthday.jpg");
+            background-size: cover;
+            font-size: 20px;
+            font-weight: bold;
+            color: burlywood;
+        }
+        #class_begin {
+            background-size: cover;
+            background-image: url("image/school.jpg");
+            font-size: 20px;
+            font-weight: bold;
+            color: burlywood;
+        }
+        .not {
+            color: #ffab3e;
+        }
+        .inner_txt{
+            vertical-align: -10px;
+            color: #FF3338;
+            background: oldlace;
+            text-align: left;
+        }
+        #youth{
+            background-size: cover;
+            background-image: url("image/youth.jpg");
+            font-size: 20px;
+            font-weight: bold;
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"><h1>August 2020</h1></div>
+        <table>
+            <tr> <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th> </tr>
+            <tr><td class="not">26</td><td class="not">27</td><td class="not">28</td><td class="not">29</td><td class="not">30</td><td class="not">31</td><td class="not">Aug 1</td></tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td id="birthday">10<br><span class="inner_txt">Enji's birthday</span></td>
+                <td>11</td>
+                <td id="youth">12 <br><span class="inner_txt">International Youth Day</span></td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td id="class_begin">24<br><span class="inner_txt">Summer ends</span></td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>31</td><td class="not">1</td><td class="not">2</td><td class="not">3</td><td class="not">4</td><td class="not">5</td><td class="not">6</td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+#container{
+    width: 1000px;
+    margin: auto;
+    background-color: ivory;
+    /*text-align: center;*/
+    padding-bottom: 30px;
+}
+#header{
+
+}
+.clearfloat{
+    clear: both;
+}
+#navbar{
+    background-color: burlywood;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+#bar{
+    width: 980px;
+    /*position: fixed;*/
+
+    /*margin: auto;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#bar ul{
+    margin:0;
+    padding: 0;
+}
+#bar li{
+    background-color: burlywood;
+    float: left;
+    list-style: none;
+    width: 245px;
+    text-align: center;
+    line-height: 50px;
+}
+#bar a{
+    text-decoration: none;
+
+}
+/*#bar a{*/
+/*    display: block;*/
+/*}*/
+#bar li:hover{
+    background-color: yellowgreen;
+}
+
+#container{
+    padding-top: 70px;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 200px;
+
+}
+#resume{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+#resume + ul{
+    text-align: right;
+    list-style: none;
+}
+
+#about_me{
+    width: 600px;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+#about_me + img{
+    float: left;
+    width: 280px;
+    padding: 40px;
+}
+
+
+
+#sections{
+    width: 900px;
+    /*margin: auto;*/
+    text-align: center;
+    margin: auto;
+    right: 0;
+}
+.path{
+    float: left;
+}
+.path img{
+    width: 290px;
+    height: 290px;
+}
+.path a{
+    text-decoration: none;
+}
+#footer{
+    /*line-height: 50px;*/
+    padding-top: 20px;
+    background-color: burlywood;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#footer p{
+
+}
+
