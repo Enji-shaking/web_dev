@@ -153,6 +153,7 @@ h2{
 }
 .my-pic{
     width: 100%;
+    box-shadow: 0px 10px 20px red;
 }
 
 
