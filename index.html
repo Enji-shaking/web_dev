@@ -1,117 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Enji Li | Student Page</title>
-    <style type="text/css">
-        #container{
-            width: 768px;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: ivory;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-        /*#pic{*/
-        /*    size:400px;*/
-        /*}*/
-        #pic img{
-            width: 347px;
-        }
-        #firstColumn{
-            float: left;
-            width: 343px;
-            margin-right: 40px;
-        }
-        #secondColum{
-            float: left;
-            width: 343px;
-            margin-left: 40px;
-        }
-        #header{
-            text-align: center;
-        }
-        .image{
-            width: 400px;
-        }
-        .clearFloat{
-            clear: both;
-        }
+  <meta charset="utf-8">
+  <title>Enji's portfolio</title>
+  <link rel="icon" href="images/favicon.ico">
+<!--  meta labels-->
+  <meta name="keyword" content="Enji, USC, ITP, Web, Resume, Viterbi, Computer Science, Student, Undergraduate, HTML, CSS">
+  <meta name="description" content="This is the introduction page regarding Enji's path. Even though it's the final project from my class, I'm willing to make this as descriptive as possible. It's a way to record my journey through my high school all the way to the end of my journey. I would make it include my course work, my extracurriculum, my life, and any other thing I may be interested in.">
+<!--  CSS Stylesheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+<!--  Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama|Montserrat:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
 
-        @media (max-width: 767px) {
-            #container{
-                width: auto;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            #header{
-                text-align: left;
-                padding-left: 50px;
-            }
-            #firstColumn,#secondColum{
-                width: auto;
-                margin-left: 40px;
-                margin-right: 40px;
-            }
-            hr{
-                width: 95%;
-            }
-        }
-    </style>
 </head>
-<body>
-<div id="container">
-    <div id="header">
-        <h1>Enji Li</h1>
-        <p>Contact me at <a href="mailto:enjili@usc.edu">enjili@usc.edu</a></p>
-    </div>
-    <hr>
-    <div id="firstColumn">
-        <p>Favorite Color: <strong>yellow</strong>.</p>
-        <p>My favorite website: <a href="http://bytes.usc.edu/cs104/">CS.</a></p>
-        <pic id = "pic"><img class = "image" src="https://pd-stuytown-cd.stuytown.com/-/media/backofgym-1000x666.jpg?", alt="Supposed to be my favorite activity"></pic>
-    </div>
-    <div id="secondColum">
-        <h2>2020 Spring Schedule</h2>
-        <ul>
-            <li>CS 104</li>
-            <li>CS 170</li>
-            <li>ITP 104</li>
-            <li>MATH 229</li>
-            <li>WRIT 150</li>
-        </ul>
-    </div>
-    <div class ="clearFloat"></div>
-    <hr>
-    <div id="firstColumn">
-        <h2>List for completed assignments.</h2>
-        <ol>
-            <li><a href="#">Assignment_01: raw resume</a></li>
-            <li><a href="#">Assignment_02: GOT</a></li>
-            <li><a href="#">Assignment_03: LOL introduction</a></li>
-            <li><a href="calendar/calendar.html">Assignment_04: Birth Month Calendar</a></li>
-            <li><a href="#">Assignment_05: LOL with Galleries (no pic)</a></li>
-            <li><a href="lol_gallery/home.html">Assignment_06: LOL with Galleries</a></li>
-            <li><a href="final_project/proposal.html">Assignment_07: Final Project Proposal</a>
-            <li><a href="final_project/index.html">Assignment_08: Final Project Homepage</a></li>
-        </ol>
-    </div>
-    <div id="secondColum">
-        <h2>List for completed labs.</h2>
-        <ol>
-            <li><a href="#">Intro</a></li>
-            <li><a href="#">Lab 2: Raw Student Page</a></li>
-            <li><a href="#">Lab 3: Updated Resume</a> </li>
-            <li><a href="#">Lab 4: Updated Student Page</a></li>
-            <li><a href="#">Lab 5: Valentine Form</a></li>
-            <li><a href="#">Lab 6: LOL Photo Gallery</a></li>
-            <li><a href="#">Lab 7: Picture Puzzle</a></li>
-            <li><a href="#">Lab 8: responsive student page</a></li>
-            <li><a href="#">Lab 9: Apple's product</a></li>
-            <li><a href="Enji's_Pic/main.html">Lab 10: Enji's Pictures</a></li>
 
-        </ol>
+<body>
+<!--  Video Header -->
+  <header>
+    <div class="overlay"></div>
+    <video autoplay muted loop>
+      <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Welcome to Enji's Homepage</h1>
+          <p class="lead mb-0 text-white">A programmer and a good friend</p>
+        </div>
+      </div>
     </div>
-    <div class="clearFloat"></div>
-</div>
+  </header>
+
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="#">Homepage</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resumeSec">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  <!-- Projects -->
+
+  <section id="projects">
+    <div class="row">
+      <div class="col-lg-4 project-box">
+        <i class="fab fa-html5 webIcon fa-4x"></i> <i class="fab fa-css3-alt webIcon fa-4x"></i> <i class="fab fa-js webIcon fa-4x"></i>
+        <h3>Web-Design</h3>
+        <br>
+        <a href="itp104.html" class="btn btn-outline-secondary project-btns">USC Web publishing coursework</a>
+        <a href="#" class="btn btn-outline-secondary project-btns">Udemy full web dev bootcamp</a>
+      </div>
+      <div class="col-lg-4 project-box">
+        <i class="fas fa-project-diagram webIcon fa-4x"></i>
+        <h3>Projects</h3>
+        <br>
+        <a href="#" class="btn btn-outline-secondary project-btns">USC CS104 course works</a>
+        <a href="personal-projects.html" class="btn btn-outline-secondary project-btns">Personal Projects</a>
+      </div>
+      <div class="col-lg-4 project-box">
+        <i class="fas fa-heart webIcon fa-4x"></i>
+        <h3>Personal Life</h3>
+        <br>
+        <a href="#" class="btn btn-outline-secondary project-btns">Life at USC</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Resume -->
+  <section id="resumeSec">
+    <h2>Resume</h2>
+    <div class="row">
+      <div class="col-lg-8">
+        <iframe name="resume" src="files/Resume.pdf" id="resume"></iframe>
+      </div>
+
+      <div class="col-lg-3>">
+        <a href="files/Resume.pdf" class="btn btn-dark btn-lg" target="_blank">Click to view in full window</a>
+        <br><br>
+        <ul>
+          <li><a target="resume" href="files/Resume.pdf">English Version </a></li>
+          <li><a target="resume" href="files/Enji_CN.pdf">Chinese Version 中文版</a></li>
+        </ul>
+        <a href="files/Enji_CN.pdf" class="btn btn-dark btn-lg" target="_blank">点击展开窗口</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!--  about me-->
+  <section id="aboutMe">
+    <div class="row">
+      <div class="col-lg-7">
+        <h2>About me</h2>
+        <p>Hi there, this is Enji from USC Viterbi college. I'm currently a freshman majoring in computer science.</p>
+        <p>An interesting fact about my major: Even though I love CS right now and I'm glad I could pick this major as my focus, I actually said "I would never go for CS in my future. Never." when I was a freshman in high school. The reason was that I felt so frustrated when I gave it a try and found out I have to spend more than 3 hours to debug for a simple typo. After that, I didn't touch CS for my whole high school life. Fortunately, I took a computer science course as a senior. In that course, I explored many interesting websites and found that it was so excited to see the computer react as exactly what I told it. Thus, after I got accepted as a student majoring in EE, I didn't wait for a second and transfered to CS, and I'm still happy for my choice at that time.</p>
+        <p>In my free time, I like to read novels, go to gym, and play some video games, just as most of the boys. I'm currently teaching myself Javascripts and Programming in Swift. So if you have any good resources, please let me know! </p>
+      </div>
+
+      <div class="col-lg-5">
+        <img src="images/me.jpg" alt="my picture" class="my-pic">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer id="footer">
+    <h3>Any questions? Any interest? Contact me!</h3>
+    <a href="https://www.linkedin.com/in/enji-li-3b74a9192/"><i class="fab fa-linkedin fa-2x path "></i></a>
+    <a href="mailto:enjili@usc.edu"><i class="fas fa-envelope fa-2x path"></i></a>
+    <a href="https://github.com/Enji-shaking"><i class="fab fa-github fa-2x path"></i></a>
+    <p>© Copyright 2020 Enji Li</p>
+
+  </footer>
+
+<!-- Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--  Font awesome for icons-->
+<script src="https://kit.fontawesome.com/30d28e221f.js" crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>

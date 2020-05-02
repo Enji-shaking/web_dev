@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ITP 104</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="keyword" content="Enji, USC, ITP, Web, Resume, Viterbi, Computer Science, Student, Undergraduate, HTML, CSS">
+    <meta name="description" content="This is the page recording my learning in ITP104, USC's web developing course. It would include some snipets of the work I've done.">
+<!--    bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--    google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama|Montserrat:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
+<!--    my css files-->
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<header>
+    <div class="overlay"></div>
+    <video autoplay muted loop>
+        <source src="images/rock.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">USC Web Design Publishing</h1>
+                <p class="lead mb-0 text-white">My Web Journey starts here</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<!--    <a class="navbar-brand" href="#">Homepage</a>-->
+    <div class="navbar-brand"><img src="images/favicon.ico" alt="Enji's icon"></div>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Return to Homepage</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!-- Content -->
+<section id="web-examples">
+
+    <div class="row">
+        <div class="col-lg-6">
+            <iframe class="itp-video" id="homepage" src="itp104/itp-homepage.mp4"></iframe>
+            <h3>HOMEPAGE</h3>
+            <p>A two-column student homepage including favorite color, website, 2020 spring schedule, with links to assignments and labs </p>
+            <a class="btn btn-outline-info" role="button" href="https://viterbi-web.usc.edu/~enjili/itp104/student_page.html" target="_blank"> View in full page </a>
+        </div>
+        <div class="col-lg-6">
+            <iframe class="itp-video" name="calendar" src="itp104/itp-birthday-calendar.mp4"></iframe>
+            <h3>CALENDAR</h3>
+            <p>A calendar of my birthday month with three highlighted events. Using HTML table and other CSS properties </p>
+            <a class="btn btn-outline-info" role="button" href="https://viterbi-web.usc.edu/~enjili/itp104/assignment_04/calendar.html" target="_blank"> View in full page </a>
+        </div>
+        <div class="col-lg-6">
+            <iframe class="itp-video" name="gallery" src="itp104/itp-gallery.mp4"></iframe>
+            <h3>GALLERY</h3>
+            <p>A two-page gallery including characters of my favorite game. Made with CSS hover and float properties.</p>
+            <a class="btn btn-outline-info" role="button" href="https://viterbi-web.usc.edu/~enjili/itp104/assignment_06/home.html" target="_blank"> View in full page </a>
+        </div>
+        <div class="col-lg-6">
+            <iframe class="itp-video" name="puzzle" src="itp104/itp-draggable-puzzle.mp4"></iframe>
+            <h3>DRAGGABLE PUZZLE</h3>
+            <p>Divided pictures of Enji and Monica. Utilizing JS Draggability plug in to make it draggable within a certain boundaries.</p>
+            <a class="btn btn-outline-info" role="button" href="https://viterbi-web.usc.edu/~enjili/itp104/lab11/imagePuzzle.html" target="_blank"> View in full page </a>
+        </div>
+        <div class="col-lg-6">
+            <iframe class="itp-video" name="form" src="itp104/itp-order-form.mp4"></iframe>
+            <h3>VALENTINE FORM</h3>
+            <p>A Form for reservation during the valentine's day. Using HTML form with different input types including submit, reset, dropdown menu, checkbox, etc.</p>
+            <a class="btn btn-outline-info" role="button" href="https://viterbi-web.usc.edu/~enjili/itp104/lab5/formPage.html" target="_blank"> View in full page </a>
+        </div>
+        <div class="col-lg-6">
+            <iframe class="itp-video" name="enji" src="itp104/itp-enji.mp4"></iframe>
+            <h3>ME</h3>
+            <p>My growth path from young to now. Using CSS effects of transition, transformation, and pseudo classes.</p>
+            <a class="btn btn-outline-info" role="button" href="https://viterbi-web.usc.edu/~enjili/itp104/lab10/main.html" target="_blank"> View in full page </a>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<!-- Footer -->
+<footer id="footer">
+    <h3>Any questions? Any interest? Contact me!</h3>
+    <a href="https://www.linkedin.com/in/enji-li-3b74a9192/"><i class="fab fa-linkedin fa-2x path "></i></a>
+    <a href="mailto:enjili@usc.edu"><i class="fas fa-envelope fa-2x path"></i></a>
+    <a href="https://github.com/Enji-shaking"><i class="fab fa-github fa-2x path"></i></a>
+    <p>© Copyright 2020 Enji Li</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

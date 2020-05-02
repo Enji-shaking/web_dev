@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Personal-project</title>
+    
+    <meta name="keyword" content="Enji, USC, ITP, Web, Resume, Viterbi, Computer Science, Student, Undergraduate, HTML, CSS">
+    <meta name="description" content="This is the page for my personal projects. I would keep track of the group projects I do in my spare time as well as all my attended Hackthatons">
+
+    <link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama|Montserrat:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Video Header -->
+<header>
+    <div class="overlay"></div>
+    <video autoplay muted loop>
+        <source src="images/NightSky.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">Learning for changing</h1>
+                <p class="lead mb-0 text-white">Start from tiny details around me.</p>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <!--    <a class="navbar-brand" href="#">Homepage</a>-->
+    <div class="navbar-brand"><img src="images/favicon.ico" alt="Enji's icon"></div>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Return to Homepage</a>
+        </li>
+    </ul>
+</nav>
+
+<section class="project-intro">
+    <h2 class="project-intro">I love coding.<i class="fas fa-heart fa-4x heart-icon"></i> And I love to bring what I know to what I can feel. I hope I could change this world with my skills. <br><br>Now, I start with all the tiny projects. I hope I can do more and better in the future. I'm growing. <br><br></h2>
+</section>
+
+
+<section id="projects-content">
+    <ul class="nav nav-pills mb-3 mx-auto project-nav" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active project-main-tabs" id="pills-profile-tab" data-toggle="pill" href="#project-personal" role="tab">Personal Project</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link project-main-tabs" id="pills-home-tab" data-toggle="pill" href="#project-hackthaton" role="tab">Hackthaton</a>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+
+<!--        Personal Projects-->
+        <div class="tab-pane fade show active" id="project-personal" role="tabpanel">
+            <iframe name="moodyIns" src="images/MoodyIns.mp4" id="moodyIns"></iframe>
+            <br><br><br>
+            <h3>Moody Ins</h3>
+            <p class="project-description">This project means to give our clients a way to examine Instagram user's emotion related to a single tag. They can enter a tag in the search box and see what the tag relates to and see the result through charts and statistics. This application utilized <i class="fab fa-python"></i> python webdriver crawler to obtain images and comments from the Instagram. Adapted <i class="fab fa-windows"></i> Microsoft's Azure Facial Emotional Analyzer to analyze people's emotion through their pictures. By showing the images and providing links to the original posts, our users could see the exact contents related to the tag. </p>
+            <br>
+            <a class="btn btn-outline-info" role="button" href="https://github.com/yangxqiao/MoodyIns" target="_blank"> View in Github </a>
+            <br><br>
+            <p class="credit">Credit to: Xiaoyang Qiao, Julie Shi, Sophia Song, Enji Li. ©2020</p>
+            <br><br><br>
+        </div>
+
+<!--        Hackathon-->
+        <div class="tab-pane fade" id="project-hackthaton" role="tabpanel">
+
+            <div class="row">
+<!--                Tabs-->
+                <div class="col-2">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active project-secondary-tabs" id="Trojan-Hack-tab" data-toggle="pill" href="#Trojan-Hack" role="tab">Trojan Hacks (Nov 2019)</a>
+                        <a class="nav-link project-secondary-tabs" id="HackSC-tab" data-toggle="pill" href="#HackSC" role="tab">HackSC (Jan 2020)</a>
+                        <!-- <a class="nav-link project-secondary-tabs" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>-->
+                        <!-- <a class="nav-link project-secondary-tabs" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>-->
+                    </div>
+                </div>
+<!--                Contents-->
+                <div class="col-10">
+                    <div class="tab-content project-secondary-content" id="v-pills-tabContent">
+<!--                        Trojan Hack -->
+                        <div class="tab-pane fade show active" id="Trojan-Hack" role="tabpanel">
+                            <h3>Demo</h3>
+                            <img src="images/facial.jpeg" alt="Facial-">
+                            <br><br>
+                            <h3>SC-Face</h3>
+                            <h4 class="award">Best Freshman Hack</h4>
+                            <div class="project-description">
+                                <h4> What inspired us: </h4>
+                                <p>We observed the inconvenience in attendance-taking process at USC. We want it to be as simple as taking a picture rather than taking attendance by calling names.</p>
+                                <h4>What it does</h4>
+                                <p>It recognizes registered individuals (students) and display stored information.</p>
+                                <h4>How we built it</h4>
+                                <p>Our program is built with Java SE-11 (jdk-13.0.1) using eclipse platform. Also, we imported OpenCV and Cascade Classifier API to identify human faces. Using Descriptor Matcher to compare keypoints.</p>
+                                <h4>Challenges we ran into</h4>
+                                <p>1. Camera Access Issues: videocapture() cannot access web cam. 2. Forgot to push our code that we have to redo most of the parts.
+                                <h4>Accomplishments that I'm proud of</h4>
+                                <p>We used many libraries, including OpenCV, that we never used before! By reading the documentations, we were able to utilize some excellent programs made by others.</p>
+                                <h4>What I learned</h4>
+                                <p>It's extremely important to get an appropriate structure set up at the very beginning stage. Keeping track in between functions is hard but essential. We learned as we built on the structure.</p>
+                                <h4>What's next for SC-Face</h4>
+                                <p>Generate an output.txt file to take records of attendance. Create pop-ups to display attendance messages.<p>
+                            </div>
+                            <a class="btn btn-outline-info" role="button" href="https://github.com/Enji-shaking/Facial-recognization" target="_blank"> View in Github </a>
+                            <a class="btn btn-outline-info" role="button" href=" https://devpost.com/software/sc-face" target="_blank"> View in Devpost </a>
+                            <p class="credit">Credit to: Andy Chen, Sherry Guo, Gary Mao, Enji Li. ©2020</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="HackSC" role="tabpanel">
+                            <div class="iframe-container">
+                                <iframe width="1168" height="730" src="https://www.youtube.com/embed/d-U2stIILSs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="betterWorkPlace"></iframe>
+                            </div>
+                            <br>
+                            <h3>A better working environment for coder and writer</h3>
+                            <p class="project-description">Utilizing HTML and CSS, we constructed a webpage that could used to relief workers' pressure. It involves with several games we designed and mutiple elements. A database is connected to keep tract of people's identity for logging in. Their gaming information is also recorded. We hope this project could be improved one day in the future to actually bring a better life for people.<br><br><br><a class="btn btn-outline-info" role="button" href="https://devpost.com/software/betterworkplace" target="_blank"> View in Devpost </a></p>
+                            <br>
+                            <p class="credit">Credit to: Rita Li, Pengyao Xie, Sophia Song, Enji Li. ©2020</p>
+
+                        </div>
+
+                        <!-- <div class="tab-pane fade" id="v-pills-messages" role="tabpanel">...</div>-->
+                        <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel">...</div>-->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+<!--            https://devpost.com/software/sc-face-->
+<!--            Enji Li, Xinran Gao, Bairen Chen, Yunhan Mao-->
+<!--            TrojanHacks Fall 2019-->
+<!--            Best Freshman Hack-->
+<!--            https://github.com/Enji-shaking/Facial-recognization-->
+
+<!--            <iframe width="1168" height="730" src="https://www.youtube.com/embed/d-U2stIILSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--            https://devpost.com/software/betterworkplace-->
+<!--            A better working environment for coder and writer.-->
+<!--            submitted to HackSC 2020-->
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <h3>Any questions? Any interest? Contact me!</h3>
+    <a href="https://www.linkedin.com/in/enji-li-3b74a9192/"><i class="fab fa-linkedin fa-2x path "></i></a>
+    <a href="mailto:enjili@usc.edu"><i class="fas fa-envelope fa-2x path"></i></a>
+    <a href="https://github.com/Enji-shaking"><i class="fab fa-github fa-2x path"></i></a>
+    <p>© Copyright 2020 Enji Li</p>
+
+</footer>
+
+<!-- Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--  Font awesome for icons-->
+<script src="https://kit.fontawesome.com/30d28e221f.js" crossorigin="anonymous"></script>
+</body>
+</html>
